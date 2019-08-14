@@ -1,0 +1,13 @@
+Source: ros-melodic-robot-one
+Section: misc
+Priority: extra
+Maintainer: Alexander S. Barbosa <alexander.ti.ufv@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-message-generation, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-tf
+Homepage: https://github.com/AlexanderSilvaB/Robot-One-ROS
+Standards-Version: 3.9.2
+
+Package: ros-melodic-robot-one
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-geometry-msgs, ros-melodic-message-runtime, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-tf
+Description: This package allows to use the Robot One Framework with ROS.
+ The supported features of the framework includes the simulator and connection with the physical robots
