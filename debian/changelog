@@ -1,0 +1,11 @@
+ros-melodic-robot-one (0.1.1-1bionic) bionic; urgency=high
+
+  * author in package
+  * version command
+  * Initial commit
+  * Initial commit
+  * Contributors: AlexanderSilvaB
+
+ -- Alexander S. Barbosa <alexander.ti.ufv@gmail.com>  Wed, 14 Aug 2019 03:00:00 -0000
+
+
